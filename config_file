@@ -1,0 +1,21 @@
+file.c
+PROJECT_DIR;
+SOURCES_DIRS;
+HEADERS_DIR;
+LIBS_DIR;
+NAME;
+DISPLAY;
+CC;cc
+AR;ar rcs
+CFLAGS;-Wall -Wextra -Werror
+BCK_DIR;backup
+ZIP;tar
+ZIPFLAGS;-czvf
+UNZIP;tar
+UNZIPFLAGS;-xzvf
+
+# Rules Arguments:
+#  - archive : backup the source files in a compressed format, in the project folder
+#  - revert : recreate the project from the last backup
+#  - num : print the current version number
+#  - delete : delete last backup
