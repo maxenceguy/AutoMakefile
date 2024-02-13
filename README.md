@@ -32,9 +32,9 @@ AutoMakefile is a bash script that automatically creates a Makefile for C projec
   For all the variables, write after ';'.
   - **1st line**: write all .c files, without the folder_name/, even if they are in different folders. (ex: file.c)
   - **PROJECT_DIR**:  go in your project folder and copy your pwd. (ex: /home/name/Document/projet)
-  - **SOURCES_DIRS**:  all folders with .c. (ex: src/ other2/)
-  - **HEADERS_DIR**:  folder with .h files. (ex: include/)
-  - **LIBS_DIR**:  folder with your library. (ex: lib/)
+  - **SOURCES_DIRS**:  all folders with .c. (ex: ., src/, other2/)
+  - **HEADERS_DIR**:  folder with .h files. (ex: ., include/)
+  - **LIBS_DIR**:  folder with your library. (ex: ., lib/)
   - **NAME**:  binary name. 
   - **DISPLAY**:  title to display.
   For others variables, you can change them, but they're already there by default.
